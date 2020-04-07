@@ -4,11 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I'm a professor of Data Science at the [University of San Francisco](https://www.usfca.edu/faculty/nicholas-ross "My USF Homepage"). Before USF, I spent a number of years in the video game industry, primarily at two companies: TinyCo, which was purchased by [JamCity in 2016](https://www.jamcity.com/why-were-buying-tinyco/) and [Sega](https://www.sega.com/), though I also consulted for a number of differnet companies.
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+Currently, my primary responsibilty is overseeing the [Practicum Program](https://www.usfca.edu/arts-sciences/graduate-programs/data-science/practicums) at USF, which is a required, part-time 9-month internship for students in the [Masters of Data Science Program](https://www.usfca.edu/arts-sciences/graduate-programs/data-science).
 
 ### Contact me
 
