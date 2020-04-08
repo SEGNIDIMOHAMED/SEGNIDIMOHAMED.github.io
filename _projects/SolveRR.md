@@ -4,7 +4,7 @@ title: Solving Raging Rapids
 mathjax: true
 ---
 
-Alternative title: How to spend a few hours over the holidays sitting at your computer.
+Alternative title: How to spend a few hours over the holidays sitting at a computer.
 
 A few years ago a [friend](https://sites.google.com/site/rsaoumaedu/) of mine sent me a puzzle called Raging Rapids.
 
