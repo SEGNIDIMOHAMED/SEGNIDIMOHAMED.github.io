@@ -3,7 +3,5 @@ layout: default
 ---
 
 {% for item in site.projects %}
-  <h2>{{ item.title }}</h2>
-  <p>{{ item.description }}</p>
-  <p><a href="{{ item.url }}">{{ item.title }}</a></p>
+  <p><h3><a href="{{ item.url }}">{{ item.title }}</a></h3></p>
 {% endfor %}
