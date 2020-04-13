@@ -1,0 +1,7 @@
+---
+layout: default
+---
+
+{% for item in site.talks %}
+  <p><a href="{{ item.url }}">{{ item.date | date: "%m/%d/%Y"}} {{ item.event }}: {{item.title}}</a></p>
+{% endfor %}
