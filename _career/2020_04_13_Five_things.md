@@ -37,13 +37,21 @@ A lot of people dislike networking (I am one of them), so try to find ways to ne
 When I network I try to do specific things (and at least identify a few of them ahead of time). Am I here to get to know a particular company I know will be attendance? Am I here to catch up with a friend? What can I do to maximize this experience? 
 
 
-
-
-
 ### 2. Improve your docs
+
+By _Improve your docs_ I mean read over the required documents in a job search: LinkedIn, your resume and your cover letter. 
+
+Each of these are public facing and are frequently the first thing that a person sees when you apply to a job, so you need to make sure that they are making a good impression. Grammar errors, misspelled words, random tenses and persons are all negatives. There are lots of good resources on the internet for how to do each well and no matter what advice you buy into there is a basic hurdle that these documents need to overcome.
+
+While there is a lot of advice out there on what should be in or not in a cover letter (or even if one is required), there are still many jobs out there that filter out applicants by this document. For example, in a number of job searches I've been apart of a cover letter was barely read -- but if an applicant didn't submit one it would not pass through our applicant tracking system. 
 
 ### 3. Interview Preparation
 
+The third thing you can do in order to help your job search is interview preparation. This involves looking up common interview questions (both technical and behavioral) and spending time making sure that you can answer them.
+
+Most students I know spend way too much time on interview prep because they believe that there are a finite number of questions that can be asked and, if they study enough, they will eventually have good answers to all of them. That is not to say that preparing in this manner is a waste of time, but it is difficult to anticipate every question that that interviewers will ask. 
+
+For data science positions, the technical side of things is two-fold: both on the coding side (usually SQL and Python) and on the data science side (statistics, math, and machine learning). For the former, the best thing to do is practice using sites like [leetcode](https://leetcode.com/) and [HackerRank](https://www.hackerrank.com/) though there are many others and please don't consider the above an endorsement.
 
 ### 4. Apply for jobs
 
