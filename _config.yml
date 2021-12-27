@@ -6,7 +6,7 @@
 name: Nick Ross
 
 # Short bio or description (displayed in the header)
-description: Professor of Data Science 
+description: Doing Stuff 
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /images/grumpy_resize.png 
@@ -40,9 +40,12 @@ collections:
     output: true
   talks: 
     output: true
+  datamanagement:
+    output: true
   research:
     output: true
-
+  abtesting:
+    output: true
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
@@ -74,7 +77,7 @@ version: v1.2.0
 # Jekyll 3 now only supports Kramdown for Markdown
 kramdown:
   # Use GitHub flavored markdown, including triple backtick fenced code blocks
-  input: GFM
+  input: GFM 
   # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
   syntax_highlighter: rouge
   syntax_highlighter_opts:
