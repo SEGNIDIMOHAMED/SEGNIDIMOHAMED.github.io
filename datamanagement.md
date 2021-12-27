@@ -10,6 +10,6 @@ On my to-do list is completing these notes and turning them into something prese
 
 <p style="margin-bottom:2cm;"></p>
 
-<div style="text-align: center;" ><img style="border: 1px solid black;" src="/images/output.png" width="800" /></div>
+<div style="text-align: center;" ><img style="border: 1px solid black;" src="/images/dm_cover.png" width="800" /></div>
 
 <p style="margin-bottom:2cm;"></p>

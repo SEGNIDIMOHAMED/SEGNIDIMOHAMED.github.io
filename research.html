@@ -6,7 +6,7 @@ In this section you can information about the papers I've published, their abstr
 
 {% assign sorted = site.research | reverse %}
 {% for item in sorted %}
-  <p><h4><a href="{{ item.url }}">{{item.year}}: {{ item.title }}</a></h4></p>
+  <p><h4><a href="{{ item.url }}">{{ item.title }} ({{ item.year}})</a></h4></p>
 {% endfor %}
 
 
