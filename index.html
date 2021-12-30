@@ -2,7 +2,7 @@
 layout: default
 ---
 
-This is the homepage of Nick Ross. You can find information <a href='./about'>about me,</a> <a href="./projects">some projects</a>, <a href="./research">my research</a> and <a href="./career">career advice</a> can be found here.
-
+{%- capture intro -%}{% include_relative intro.md %}{%- endcapture -%}
+<div>{{ intro | markdownify }}</div>
 
 
