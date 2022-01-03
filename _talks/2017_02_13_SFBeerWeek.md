@@ -10,3 +10,6 @@ In conjunction with San Francisco Beer Week, I  hosted an event with talks from 
 
 
 The event was at a [Standard Deviant Brewery](https://standarddeviantbrewing.square.site/) and had strong attendance from faculty, staff and students of USF.
+
+
+Presentation can be found [here](/assets/BeerWeek2017.pdf).
