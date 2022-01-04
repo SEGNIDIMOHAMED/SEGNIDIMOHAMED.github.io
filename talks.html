@@ -4,5 +4,5 @@ layout: default
 
 {% assign sorted = site.talks | reverse %}
 {% for item in sorted %}
-  <p><a href="{{ item.url }}">{{ item.date | date: "%Y/%m/%d"}} {{ item.event }}: {{item.title}}</a></p>
+  <p><a href="{{ item.url }}">{{ item.event }}: {{item.title}} ({{ item.date | date: "%m/%Y"}})</a></p>
 {% endfor %}
