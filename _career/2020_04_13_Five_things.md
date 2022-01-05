@@ -1,6 +1,6 @@
 ---
 layout: careers 
-title: The only 5 things you can do to get a job. 
+title: The only 5 things you can do to get a job
 date: April 13, 2020 
 mathjax: true
 ---
