@@ -5,7 +5,7 @@ Most recently I was Director of Backend Engineering and Data Science at [The Met
 
 <div style="float: right;"><img src="/images/NickRossPhoto.png" width="400" /></div>
 
-On the [research]({% link research.html %}) side I'm very much interested in how companies use data to make decisions. Currently I'm working on two projects: a tome on A/B testing and a book on data management, specifically using Pandas and SQL.
+On the [research]({% link research.md %}) side I study how companies leverage data to make decisions. Currently I'm working on two projects: a tome on [A/B testing]({% link abtesting.md %}) and a book on [Data Management]({% link datamanagement.md %}) using Pandas and SQL.
 
 Formerly I was a professor at the [University of San Francisco](https://www.usfca.edu) though I spent most of my time housed within their [Data Institute](https://www.usfca.edu/data-institute) and [teaching]({% link classes.md %}) in the Masters of Data Science Program (MSDS). Many commonly answered questions about USF's MSDS Program can be found on my old [Quora page](https://www.quora.com/profile/Nicholas-Ross), though some of this may be out of date.
 
