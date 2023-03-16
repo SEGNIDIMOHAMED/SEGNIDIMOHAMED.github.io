@@ -2,14 +2,23 @@
 layout: default
 ---
 
-One of the biggest holes in how data science (and computer science) is taught is the lack of _vocational_ courses for how to use data. Most CS programs will have a database course which covers the core trade-offs around building a database -- but will only provide a cursory tough on SQL.
 
-At USF I taught the main course on Data Management which covered both SQL (specifically PostgreSQL) as well as Python's Pandas package. The notes from this course were written up and distributed to the students.
+<div style="clear: both;">
+  <div style="float: left; margin-right 5px; margin-right: 20px;">
+    <img style="border: 1px solid black;" src="/images/dm_cover.png" width="400">
+  </div>
+  <div>
+{{ "One of the biggest holes in how data science (and computer science) is taught is the lack of _vocational_ courses for how to use data. Most CS programs will have a database course which covers the core trade-offs around building a database -- but will only provide a cursory glance toward how to write SQL. Similarly when teaching how to manipulate data in Python there is usually only a week or two spent on using Pandas, despite it being the most common method for exploring data.
 
-On my to-do list is completing these notes and turning them into something presentable. Right now they are in dire need of an update (specifically Pandas has changed quite a bit from the last time I taught the course), but I've put the cover here for posterity. 
+The notes that can be found herein represent a fingers-on-the-keys approach to teaching these two topics. These note present a distinctly practical approach to learning how to use these two tools. This course has been taught at the undergraduate, graduate and executive certificate level in a variety of different course structures.
 
-<p style="margin-bottom:2cm;"></p>
+This page contains the version of those notes which was presented to the students at [MS-CAPP Program](https://capp.uchicago.edu/) in the spring quarter of 2023.
 
-<div style="text-align: center;" ><img style="border: 1px solid black;" src="/images/dm_cover.png" width="800" /></div>
+The data used in this course can be found in the repository [here](https://github.com/NickRoss/sql-data)
 
-<p style="margin-bottom:2cm;"></p>
+" | markdownify }}
+  </div>
+</div>
+
+
+<p style="margin-bottom:100cm;"></p>
