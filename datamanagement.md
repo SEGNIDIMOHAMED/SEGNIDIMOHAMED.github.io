@@ -14,7 +14,7 @@ The notes that can be found herein represent a fingers-on-the-keys approach to t
 
 This page contains the version of those notes which was presented to the students at [MS-CAPP Program](https://capp.uchicago.edu/) in the spring quarter of 2023.
 
-The data used in this course can be found in the repository [here](https://github.com/NickRoss/sql-data)
+The data used in this course can be found in the repository [here](https://github.com/NickRoss/sql-data) while 
 
 " | markdownify }}
   </div>
