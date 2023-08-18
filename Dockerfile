@@ -10,10 +10,9 @@ WORKDIR /site
 
 # Update the Ruby bundler and install Jekyll
 
-RUN gem install bundler:2.4.19 jekyll:4.3.2 jekyll-feed:0.17.0 jekyll-sitemap:1.4.0
+#RUN gem install bundler:2.4.19 
+RUN gem install jekyll:4.3.2 jekyll-feed:0.17.0 jekyll-sitemap:1.4.0
 
 EXPOSE 4000
 
-RUN bundle install
-
-CMD ["bundle", "exec", "jekyll", "serve", "--livereload", "--host", "0.0.0.0"]
+CMD ["jekyll", "serve", "--livereload", "--host", "0.0.0.0"]
