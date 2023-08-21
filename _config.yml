@@ -46,6 +46,8 @@ collections:
     output: true
   abtesting:
     output: true
+  notes:
+    output: true
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
