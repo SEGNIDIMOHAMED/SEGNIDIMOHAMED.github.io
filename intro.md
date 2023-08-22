@@ -1,9 +1,9 @@
 <!-- This File is used by both the about and index page -->
-My name is Nick Ross and I'm an experienced data science professor and executive. Currently I'm advising a few startups as well as sitting on the board of [Michigan State University's Analytics Program](https://broad.msu.edu/masters/business-data-science-analytics/board/).
+My name is Nick Ross and I'm an experienced data science professor and executive. Currently I'm an instructional professor and Director of the Data Science Clinic at the University of Chicago's [Data Science Institute](https://datascience.uchicago.edu/). I also advise and invest in startups, personally as well as through the [Polsky Center's Transform Data Science and AI Accelerator](https://polsky.uchicago.edu/programs-events/transform/). Finally, I sit on the advisory board of [Michigan State University's Analytics Program](https://broad.msu.edu/masters/business-data-science-analytics/board/).
 
-Most recently I was Director of Backend Engineering and Data Science at [The Meta (not Facebook)](https://themeta.com/). I spend most of my time working with [boring technologies](http://boringtechnology.club/) (node, python, k8s, docker and redis for example). I design cost-effective, scalable, cloud-based backend and data systems (ML/AI) as well as assemble the teams that build them. This includes all the fun stuff keeping the systems up at night.
+Before Chicago, I was Director of Backend Engineering and Data Science at [The Meta (not Facebook)](https://themeta.com/). I spend most of my time working with [boring technologies](http://boringtechnology.club/) (node, python, k8s, docker and redis for example). I design cost-effective, scalable, cloud-based backend and data systems (ML/AI) as well as assemble the teams that build them. This includes all the fun stuff keeping the systems up at night.
 
-<div style="float: right;"><img src="/images/NickRossPhoto.png" width="400" /></div>
+<div style="float: right;margin-left 0px; margin-right: 0px;"><img src="/images/NickRossPhoto.png" width="400" /></div>
 
 On the [research]({% link research.md %}) side I study how companies leverage data to make decisions. Currently I'm working on two projects: a tome on [A/B testing]({% link abtesting.md %}) and a book on [Data Management]({% link datamanagement.md %}) using Pandas and SQL.
 
