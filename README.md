@@ -8,7 +8,9 @@ This was forked from another repo, so keep that in mind.
 
 There is a dockerfile in the repo. A few notes:
 
-1. To run everything, first build the image
+1. You can just use `build_and_run_server.sh` to run everything. Or...
+
+1. First build the image
 ```
 docker build . -t jekyll
 ```
@@ -27,7 +29,6 @@ docker run -p 4000:4000 -v ${PWD}:/site jekyll
 ### How to update things
 
 1. Resume should be updated occassionaly -- make sure to remove address
-1. 
 
 ### Some random ruby notes
 
@@ -38,7 +39,7 @@ docker run -p 4000:4000 -v ${PWD}:/site jekyll
 ### How to generate a new section
 
 * Add it to the `_config.yml` under collections
-* Create a new directory with the undescore
+* Create a new directory with the underscore
 * Create a new top level `md` file which accesses it
 * Add a layout file to (`_layout`) and make sure the layout matches that of the new section type
 * Add it to `layouts/default.html` if you want it in the bar
