@@ -13,7 +13,7 @@ At USF I was also Assistant Director of Partnerships at the Data Institute. In t
 
 Before USF, I spent a number of years in the video game industry, primarily at two companies: TinyCo, which was purchased by [JamCity in 2016](https://www.jamcity.com/why-were-buying-tinyco/) and [Sega](https://www.sega.com/), though I also consulted for a number of other start-ups. After completing my undergraduate degree, I worked for a number of years at [Bates White](https://www.bateswhite.com/), an economic consulting firm located in DC and San Diego. 
 
-You can find more details in my [resume](/assets/resume.pdf).
+You can find more details in my [resume](/assets/RossResume.pdf).
 
 ### Education 
 
