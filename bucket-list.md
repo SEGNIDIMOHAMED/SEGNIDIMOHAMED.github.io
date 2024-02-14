@@ -13,11 +13,11 @@ Feel free to suggest some things I could try out!
 - [x] Swim with dolphins 🐬
 - [x] Go skydiving 🪂
 - [x] Go scubadiving 🤿
-- [x] Ride a jet ski
-- [ ] Publish a book
-- [ ] Go on a game show
-- [ ] Fly a plane
-- [ ] Build a snow man (There's no snow in Accra)
-- [ ] Dunk on a standard basketball rim
-- [x] Ride a rollercoaster
-- [ ] Ride a hot air balloon
+- [x] Ride a jet ski 🌊
+- [ ] Publish a book 📚
+- [ ] Go on a game show 🎯
+- [ ] Fly a plane ✈️
+- [ ] Build a snow man (There's no snow in Accra) ☃️
+- [ ] Dunk on a standard basketball rim 🏀
+- [x] Ride a rollercoaster 🎢
+- [ ] Ride a hot air balloon 🎈
