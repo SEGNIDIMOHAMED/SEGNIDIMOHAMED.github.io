@@ -17,7 +17,7 @@ Feel free to suggest some things I could try out!
 - [ ] Publish a book
 - [ ] Go on a game show
 - [ ] Fly a plane
-- [ ] Build a snow man (Ain't no snow in Accra)
+- [ ] Build a snow man (There's no snow in Accra)
 - [ ] Dunk on a standard basketball rim
 - [x] Ride a rollercoaster
 - [ ] Ride a hot air balloon
