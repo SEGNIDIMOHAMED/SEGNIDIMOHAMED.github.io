@@ -8,7 +8,7 @@ permalink: /projects/
 
 <img width="800" alt="Screenshot 2024-08-12 at 18 15 13" src="https://github.com/user-attachments/assets/34af352e-c23e-458d-a4fb-500f9d7a191d">
 
-The Africa Youth Employment Clock is a Mastercard Foundation project executed by the World Data Lab (WDL) to track and predict employment trends in Africa, and help policy-makers to make data-sriven decisions. At WDL, I led the data engineering and data science work for Ghana and Nigeria with sub-national granularity, including data acuisition, modelling and visualization, as well as presentations at the international launch events.
+The Africa Youth Employment Clock is a Mastercard Foundation project executed by the [World Data Lab](https://worlddata.io/) (WDL) to track and predict employment trends in Africa, and help policy-makers to make data-sriven decisions. At WDL, I led the data engineering and data science work for Ghana and Nigeria with sub-national granularity, including data acuisition, modelling and visualization, as well as presentations at the international launch events.
 
 ![](https://img.shields.io/badge/Python-white?logo=Python) ![](https://img.shields.io/badge/R-blue?logo=R)
 
