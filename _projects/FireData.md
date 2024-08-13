@@ -10,6 +10,9 @@ To better understand this, I've created the following chart which normalizes the
 
 The below chart is what fires consumption normalized to the size of California (and the trailing 5- and 10-year sums). Over the last 10 years fires burned more than 10% of the state.
 
-The source of the data is [Cal Fire Stats](https://www.fire.ca.gov/stats-events/)
+The source of the data is [Cal Fire Stats](https://www.fire.ca.gov/stats-events/).
 
-![California Fires](/images/fire.png)
+<div style="text-align: center;">
+  <img src="/images/fire.png" alt="California Fires" style="width: 90%;">
+</div>
+
