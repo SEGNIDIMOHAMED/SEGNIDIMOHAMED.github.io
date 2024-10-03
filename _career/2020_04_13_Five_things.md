@@ -13,11 +13,11 @@ Getting a job is really difficult as most of the activities that you undertake w
 
 So, after hearing for about the hundredth time that the best way to get a job is to do _X_, where _X_ was how someone's brother's girlfriend got a job at Google, I've decided to write my own version. So without further ado, here are *the only five things you can do to get a job*, in no particular order:
 
-1. Network
-1. Improve your documents
-1. Prepare for Interviews
-1. Apply for jobs
-1. Market yourself
+- [Network](#1-network)
+- [Improve your docs](#2-improve-your-docs)
+- [Interview Preparation](#3-interview-preparation)
+- [Apply for jobs](#4-apply-for-jobs)
+- [Market yourself](#5-market-yourself)
 
 ### Organization and Marginal Returns
 
@@ -35,15 +35,19 @@ It's important to get your face out there so that people know who you are and wh
 
 A lot of people dislike networking (I am one of them), so try to find ways to network that are less icky for you. For myself, I enjoy going to technical meetups -- even in areas that I'm not as familiar with! At a bare minimum I'm learning something new! Granted, this probably isn't as valuable as going to a data-centric meetup or a career fair for data science, but it is better than nothing and there is a lot of overlap between data and general tech.
 
-When I network I try to do specific things (and at least identify a few of them ahead of time). Am I here to get to know a particular company I know will be attendance? Am I here to catch up with a friend? What can I do to maximize this experience? 
+Be organized in your networking! This person, [for example](https://www.andreapopova.com/blog/how-i-landed-10-interviews-during-covid) did a great job of identifying people and pushing the right buttons.  
 
-Also be organized in your networking! This person, [for example](https://www.andreapopova.com/blog/how-i-landed-10-interviews-during-covid) did a great job of identifying people and pushing the right buttons.  
+When I network I try to do specific things (and at least identify a few of them ahead of time). Am I here to get to know a particular company I know will be attendance? Am I here to catch up with a friend? What can I do to maximize this experience? I often see new grads at these events walking up to every person asking some variant of "do you know of any jobs" -- this isn't maximizing the experience and comes off as both aggressive and negative.
+
+| Post Covid Update |
+| --- |
+| As of October 2024 in-person networking events aren't as frequent as they were pre-covid, but they still exist and can be found with a little digging. In the last year I've been invited to multiple meetup-style-talks, recruiting events and technical presentations that, while not at the frequently as pre-covid, are still an important source of job opportunities. |
 
 ### 2. Improve your docs
 
 By _Improve your docs_ I mean read over the required documents in a job search: LinkedIn, your resume and your cover letter. 
 
-Each of these are public facing and are frequently the first impression that you will leave. Grammar errors, misspelled words, random tenses and persons are all negatives. Every document you write leaves an impression and every impression counts when job searching.
+Each of these are public facing and are frequently the first impression that you will leave. Grammar errors, misspelled words, random tenses and persons are all negatives. Every document you write leaves an impression and every impression counts when job searching. For general technical resume advice, I recommend [following the information here](https://www.reddit.com/r/EngineeringResumes/wiki/index/) it aligns with most of the advice that I give and provides an excellent checklist.
 
 While there is a lot of advice out there on what should be in or not in a cover letter (or even if one is required), there are still many jobs that filter out applicants by this document. For example, in a number of recent job searches I've been a part of a cover letter was barely read -- but if an applicant didn't submit one it would not pass through the company's applicant tracking system. 
 
@@ -69,13 +73,17 @@ Be organized here! Keep track of all  applications you sent in. Document the dat
   
 ### 5. Market yourself
 
-The final thing you can is ''market yourself''. What I mean by this is bolster your public profile in non-targeted ways. Unlike networking, where you are going to do something (usually in-person) with an intended target, marketing involves undertaking activities that attempt to increase your public profile.
+The final thing you can is ''market yourself''. What I mean by this is bolster your public profile in non-targeted ways. Unlike networking, where you are going to do something (usually in-person) with an intended target, marketing involves undertaking activities that attempt to increase your public profile. Another way of thinking about the difference between marketing and networking is marketing is geared toward an audience while networking is focused at the person level.
 
 Examples of this include: putting together a website or writing up some articles and submitting them to forums where potential audiences may exist. Give a talk at a MeetUp! This could involve Twitter, LinkedIn, Medium or any other public platform. Try to get your name out there in your field.
 
+Creating a website which is a central hub about you, the projects you have worked on and links to your other sites (Github, LinkedIn, Twitter, etc.) is another useful way to market yourself. Importantly, make sure that any site which you reference on your resume for marketing purposes makes sense. If you put your Github on your documents, make sure that it isn't going to an empty profile. If you have a web page, make sure that there aren't dead links or half-completed pages (or if there are, don't share it on your resume).
+
+
 ### Fin
 
-So these are the only five things you can do to get a job. I wish that there was more to it (and obviously the devil is in the details), but this is the most comprehensive framework you can use. Just returning to what I mentioned at the top, make sure to stay organized. Being disorganized can easily cost you an opportunity, I've seen it dozens of times. 
+So these are the only five things you can do to get a job. I wish that there was more to it (and obviously the devil is in the details), but this is the most comprehensive framework you can use. Just returning to what I mentioned at the top, make sure to stay organized. Being disorganized can easily cost you an opportunity.
+
 
 
 ---
