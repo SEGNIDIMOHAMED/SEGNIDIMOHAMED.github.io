@@ -82,7 +82,7 @@ Creating a website which is a central hub about you, the projects you have worke
 
 ### Fin
 
-So these are the only five things you can do to get a job. I wish that there was more to it (and obviously the devil is in the details), but this is the most comprehensive framework you can use. Just returning to what I mentioned at the top, make sure to stay organized. Being disorganized can easily cost you an opportunity.
+So these are the only five things you can do to get a job. I wish that there was more to it (and obviously the devil is in the details), but this is the most comprehensive framework you can use. Just returning to what I mentioned at the top, make sure to _stay organized_ and focus on doing all five things. Being disorganized can easily cost you an opportunity. Keep Grinding.
 
 
 
