@@ -23,6 +23,27 @@ body {
   color: $darkGray;
 }
 
+body.dark-mode {
+  background: $darkGray;
+  color: $lightGray;
+}
+
+body.dark-mode a {
+  color: $blue;
+}
+
+body.dark-mode h1, body.dark-mode h2, body.dark-mode h3, body.dark-mode h4, body.dark-mode h5, body.dark-mode h6 {
+  color: $white;
+}
+
+body.dark-mode .container {
+  background: transparent;
+}
+
+body.dark-mode img {
+  filter: brightness(0.9) contrast(1.1);
+}
+
 .container {
   margin: 0 auto;
   max-width: 740px;

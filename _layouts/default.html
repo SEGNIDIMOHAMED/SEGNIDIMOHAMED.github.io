@@ -32,6 +32,7 @@
             <a href="{{ site.baseurl }}/projects">Projects</a>
             <a href="{{ site.baseurl }}/bucket-list">Bucket List</a>
           </nav>
+          <button id="dark-mode-toggle" aria-label="Toggle dark mode" style="margin-left:16px;font-size:1.2em;cursor:pointer;background:none;border:none;">🌙</button>
         </header>
       </div>
     </div>
@@ -39,6 +40,29 @@
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
+
+    <script>
+(function() {
+  var toggle = document.getElementById('dark-mode-toggle');
+  var body = document.body;
+  var darkMode = localStorage.getItem('darkMode');
+  function setDarkMode(on) {
+    if (on) {
+      body.classList.add('dark-mode');
+      toggle.textContent = '☀️';
+    } else {
+      body.classList.remove('dark-mode');
+      toggle.textContent = '🌙';
+    }
+  }
+  setDarkMode(darkMode === 'true');
+  toggle.addEventListener('click', function() {
+    var enabled = !body.classList.contains('dark-mode');
+    setDarkMode(enabled);
+    localStorage.setItem('darkMode', enabled);
+  });
+})();
+</script>
 
     <div class="wrapper-footer">
       <div class="container">
