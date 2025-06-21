@@ -29,7 +29,7 @@ body.dark-mode {
 }
 
 body.dark-mode a {
-  color: $blue;
+  color: $blue-light;
 }
 
 body.dark-mode h1, body.dark-mode h2, body.dark-mode h3, body.dark-mode h4, body.dark-mode h5, body.dark-mode h6 {
@@ -307,6 +307,61 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+.toggle-switch {
+  position: relative;
+  width: 48px;
+  height: 28px;
+}
+.toggle-track {
+  display: flex;
+  align-items: center;
+  background: $lightGray;
+  border-radius: 16px;
+  width: 48px;
+  height: 28px;
+  position: relative;
+  transition: background 0.3s;
+}
+.toggle-icon {
+  width: 20px;
+  text-align: center;
+  font-size: 1.1em;
+  z-index: 2;
+}
+.toggle-moon {
+  margin-left: 2px;
+}
+.toggle-sun {
+  margin-right: 2px;
+}
+.toggle-thumb {
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  width: 24px;
+  height: 24px;
+  background: $white;
+  border-radius: 50%;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  transition: left 0.3s;
+  z-index: 1;
+}
+#dark-mode-toggle.active .toggle-thumb {
+  left: 22px;
+}
+#dark-mode-toggle.active ~ .toggle-sun {
+  color: $blue;
+}
+#dark-mode-toggle:not(.active) ~ .toggle-moon {
+  color: $blue;
+}
+body.dark-mode .toggle-track {
+  background: $gray;
+}
+body.dark-mode .toggle-thumb {
+  background: $darkGray;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

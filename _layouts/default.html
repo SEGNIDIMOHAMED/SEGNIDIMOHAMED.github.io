@@ -32,7 +32,15 @@
             <a href="{{ site.baseurl }}/projects">Projects</a>
             <a href="{{ site.baseurl }}/bucket-list">Bucket List</a>
           </nav>
-          <button id="dark-mode-toggle" aria-label="Toggle dark mode" style="margin-left:16px;font-size:1.2em;cursor:pointer;background:none;border:none;">🌙</button>
+          <div class="toggle-switch" style="display:inline-block;vertical-align:middle;margin-left:16px;">
+            <button id="dark-mode-toggle" aria-label="Toggle dark mode" style="background:none;border:none;padding:0;cursor:pointer;outline:none;">
+              <span class="toggle-track">
+                <span class="toggle-icon toggle-moon" aria-hidden="true">🌙</span>
+                <span class="toggle-thumb"></span>
+                <span class="toggle-icon toggle-sun" aria-hidden="true">☀️</span>
+              </span>
+            </button>
+          </div>
         </header>
       </div>
     </div>
@@ -49,10 +57,10 @@
   function setDarkMode(on) {
     if (on) {
       body.classList.add('dark-mode');
-      toggle.textContent = '☀️';
+      toggle.classList.add('active');
     } else {
       body.classList.remove('dark-mode');
-      toggle.textContent = '🌙';
+      toggle.classList.remove('active');
     }
   }
   setDarkMode(darkMode === 'true');

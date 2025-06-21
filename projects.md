@@ -15,6 +15,7 @@ The Africa Youth Employment Clock is a Mastercard Foundation project executed by
 [Live Web Application](https://africayouthjobs.io/)
 
 ---
+<br/>
 
 ### Document Semantic Search
 
@@ -28,6 +29,7 @@ This project won **1st place** in the [\#CohereAIHack](https://devpost.com/softw
 [Streamlit Demo](https://kayo-gh-document-semantic-search-main-sia0v5.streamlit.app/)
 
 ---
+<br/>
 
 ### CYI IT Projects (Tech Lead)
 
@@ -40,6 +42,7 @@ CYI is a Christian youth development organization based in Accra, Ghana, with br
 [GitHub Org](https://github.com/CYI-IT)
 
 ---
+<br/>
 
 ### COVID-19 Policy Effectiveness Analysis
 
@@ -53,6 +56,7 @@ Published in [Nature Scientific Reports](https://www.nature.com/articles/s41598-
 [GitHub Repo](https://github.com/KayO-GH/Covid19-Policy-Effectiveness-Analysis)
 
 ---
+<br/>
 
 ### Smartcity Africa Sentiments
 
@@ -66,6 +70,7 @@ Published in [Cities](https://doi.org/10.1016/j.cities.2022.103857)
 [GitHub Repo](https://github.com/KayO-GH/smartcity-africa-sentiments)
 
 ---
+<br/>
 
 ### Website Safety Analyzer
 <img width="800" alt="website-safety-analyzer" src="https://github.com/KayO-GH/kayo-gh.github.io/assets/18174012/2898e504-656c-4b9a-91b1-f6400bb11851"/>
@@ -77,6 +82,8 @@ Fine-tuned an image classifier for detecting explicit sexual coontent. The model
 [Gradio Demo on HuggingFace Spaces](https://huggingface.co/spaces/KayO/WebsiteImageSafetyAnalyzer)
 
 ---
+<br/>
+
 ### Multi-WordCloud Generator, A Research Tool
 
 <img width="800" alt="Screenshot 2023-04-19 at 15 59 23" src="https://user-images.githubusercontent.com/18174012/233098781-02b90237-a166-427d-8498-8eae9a737366.png">
@@ -88,6 +95,7 @@ A utility for generating word clouds from multiple documents at a go, cutting do
 [Streamlit Demo](https://kayo-gh-word-cloud-generator-main-ygl645.streamlit.app/)
 
 ---
+<br/>
 
 ### UNet Foreground Image Segmentation
 
@@ -100,6 +108,7 @@ A TensorFlow project from 2020 using a modified UNet autoencoder architecture wi
 [Github Repo](https://github.com/KayO-GH/foreground-image-segmentation)
 
 ---
+<br/>
 
 ### Publications
 
@@ -107,6 +116,7 @@ A TensorFlow project from 2020 using a modified UNet autoencoder architecture wi
 - Arku, R., Buttazzoni, A., **Agyapon-Ntra, K.** and Bandauko, E., 2022. Highlighting smart city mirages in public perceptions: A Twitter sentiment analysis of four African smart city projects. _[Cities, 130, p.103857.](https://linkinghub.elsevier.com/retrieve/pii/S0264275122002967)_
 
 ---
+<br/>
 
 ### Certifications
 
