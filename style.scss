@@ -313,6 +313,9 @@ footer {
   position: relative;
   width: 48px;
   height: 28px;
+  @include mobile {
+    margin-top: 12px;
+  }
 }
 .toggle-track {
   display: flex;
