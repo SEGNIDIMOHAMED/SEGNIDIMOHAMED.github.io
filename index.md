@@ -18,7 +18,7 @@ I’m a Data Scientist with an interest in AI/ML & a background in Software Engi
 ---
 
 <br/>
-`
+
 I write about tech on my [GitHub Blog](https://kayo-gh.github.io/blog), but if you're interested, I run two other blogs with different focus points:
 - [Chopbox Life](https://chopboxlife.com/): A fictional blog based just in part on my life in high school.
 - [Medium](https://medium.com/@kayogh): My Medium blog is dedicated to things that are a little more real and have to do with life.
