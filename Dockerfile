@@ -1,7 +1,7 @@
 # Create a Jekyll container from a Ruby Alpine image
 
 # At a minimum, use Ruby 2.5 or later
-FROM ruby:3.0-buster
+FROM ruby:3.0-bullseye
 
 # Add Jekyll dependencies to Alpine
 RUN apt update
