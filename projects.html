@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+Some projects I've worked on. Obviously incomplete.
+
+{% for item in site.projects %}
+  <p><h3><a href="{{ item.url }}">{{ item.title }}</a></h3></p>
+{% endfor %}

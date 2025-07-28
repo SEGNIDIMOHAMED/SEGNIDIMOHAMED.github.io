@@ -1,0 +1,79 @@
+<table>
+<tr>		<td>Introduction and Errata</td>
+<td></td><td><a href="/assets/dm_notes/Introduction.pdf">Introduction</a></td></tr>
+
+<tr>		<td colspan="3" style="text-align: center"><b>Relational Databases</b></td>
+</tr>
+
+<tr>		<td>Rows and Columns</td>
+<td><ul><li>What is a Relational Database</li><li>Selecting Columns</li><li>WHERE: Filtering rows</li><li>Null</li><li>ORDER BY and LIMIT</li><li>Column Numbering</li><li>Where are we: A Note on Scope</li></ul></td><td><a href="/assets/dm_notes/Chapter_1.pdf">Chapter 1</a></td></tr>
+
+<tr>		<td>Basic Manipulations</td>
+<td><ul><li>Types</li><li>Renaming a Column</li><li>Basic Mathematical Manipulations, ABS and LEAST/GREATEST</li><li>Queries without a FROM Clause and Singletons</li><li>String Functions: LEFT, RIGHT, LOWER, UPPER, LENGTH, TRIM and CONCAT</li><li>ROUND and Changing Types (CAST)</li><li>CAST and changing types</li></ul></td><td><a href="/assets/dm_notes/Chapter_2.pdf">Chapter 2</a></td></tr>
+
+<tr>		<td>Subqueries, Distinct & Case</td>
+<td><ul><li>Query Evaluation Order: SELECT and WHERE</li><li>Comparisons: BETWEEN, LIKE and ILIKE</li><li>CASE: Conditional Logic</li><li>The DISTINCT Operator</li><li>Subqueries (IN, ANY, ALL)</li><li>Correlated Subqueries</li></ul></td><td><a href="/assets/dm_notes/Chapter_3.pdf">Chapter 3</a></td></tr>
+
+<tr>		<td>Database Internals: Transactions</td>
+<td><ul><li>REDO / COMBINE NEXT SECTIONS</li><li>Table Creation and Deletion</li><li>Database Operations: CRUD</li><li>Creating Tables, Constraints and Deleting tables</li><li>Altering Tables</li><li>Inserting, Copying, Updating and Deleting</li><li>Transactions and ACID</li><li>Isolation Levels in Relational Databases</li><li>Why do we care (NoSQL)?</li><li>NoSQL</li><li>Transaction Implementations [TBD]</li></ul></td><td><a href="/assets/dm_notes/Chapter_4.pdf">Chapter 4</a></td></tr>
+
+<tr>		<td>Aggregations</td>
+<td><ul><li>Introduction to MTA data set</li><li>GROUP BY clause</li><li>Column numbering syntax</li><li>Aggregates and CASE Statements</li><li>Named Subqueries</li></ul></td><td><a href="/assets/dm_notes/Chapter_5.pdf">Chapter 5</a></td></tr>
+
+<tr>		<td>Dates and Types</td>
+<td><ul><li>Date Types</li><li>Date Functions</li><li>Hard GROUP BY problems</li></ul></td><td><a href="/assets/dm_notes/Chapter_6.pdf">Chapter 6</a></td></tr>
+
+<tr>		<td>Averages</td>
+<td><ul><li>The Trouble with Averages</li><li>HAVING</li><li>COALESCE and NVL</li></ul></td><td><a href="/assets/dm_notes/Chapter_7.pdf">Chapter 7</a></td></tr>
+
+<tr>		<td>Joins</td>
+<td><ul><li>Joins</li><li>UNION and UNION ALL</li><li>Best Practices when Combining Tables</li><li>Intermediate Joins</li><li>Statistical Analysis in SQL</li></ul></td><td><a href="/assets/dm_notes/Chapter_8.pdf">Chapter 8</a></td></tr>
+
+<tr>		<td>Advanced Joins</td>
+<td><ul><li>The Shape of Data</li><li>Revenue over time & Advanced Joins</li></ul></td><td><a href="/assets/dm_notes/Chapter_9.pdf">Chapter 9</a></td></tr>
+
+<tr>		<td>Analytic Functions & CTE's</td>
+<td><ul><li>Analytic Functions</li><li>Using Analytic Functions with Transaction Data</li><li>Common Table Expressions (``CTE")</li><li>CTEs with the transaction data</li></ul></td><td><a href="/assets/dm_notes/Chapter_10.pdf">Chapter 10</a></td></tr>
+
+<tr>		<td>Database Internals: Performance Evaluation</td>
+<td><ul><li>Normalization</li><li>Views</li><li>Information Schema</li><li>Performance Considerations</li><li>Index</li><li>Distributed Systems and the CAP Theorem</li></ul></td><td><a href="/assets/dm_notes/Chapter_11.pdf">Chapter 11</a></td></tr>
+
+<tr>		<td>Extensions [TBD]</td>
+<td><ul><li>More Advanced Joins</li><li>OLAP: Cube and Rollup</li><li>Schemas</li><li>Keys</li><li>Data Exploration Strategies</li><li>Query Strategies</li></ul></td><td><a href="/assets/dm_notes/Chapter_12.pdf">Chapter 12</a></td></tr>
+
+<tr>		<td>Interview Hints</td>
+<td><ul><li>Interview Hints</li><li>Example Interview #1</li><li>Example Interview #2</li><li>Example Interview #3</li><li>Example Interview #4</li></ul></td><td><a href="/assets/dm_notes/Chapter_13.pdf">Chapter 13</a></td></tr>
+
+<tr>		<td colspan="3" style="text-align: center"><b>Pandas</b></td>
+</tr>
+
+<tr>		<td>Introduction</td>
+<td><ul><li>What is Pandas</li><li>Data structures</li><li>Selecting Columns and Rows</li><li>Column Types Conversion</li><li>Dealing with NaN</li><li>Choosing the largest and smallest values</li><li>Manipulating Data & Method Chaining</li><li>Indexes: Creating and Dropping</li><li>Views and Copies</li></ul></td><td><a href="/assets/dm_notes/Chapter_14.pdf">Chapter 14</a></td></tr>
+
+<tr>		<td>More Manipulations and Types</td>
+<td><ul><li>Sorting DataFrames</li><li>Dealing with Duplicates</li><li>Using Type specific functions</li><li>CASE style statements and the ``isin" operator</li><li>Regex Pattern Matching</li></ul></td><td><a href="/assets/dm_notes/Chapter_15.pdf">Chapter 15</a></td></tr>
+
+<tr>		<td>Aggregations</td>
+<td><ul><li>Introduction to the MTA dataset</li><li>Simple Aggregations</li><li>GroupBy Objects</li><li>Advanced Index / Multiindex</li><li>If not indexes...</li><li>Indexing with aggregations, a big Gotcha</li></ul></td><td><a href="/assets/dm_notes/Chapter_16.pdf">Chapter 16</a></td></tr>
+
+<tr>		<td>Joins</td>
+<td><ul><li>Helpful Table / Review</li><li>Merging data in Pandas</li><li>Complex Join Conditions</li><li>Stacking Data</li><li>Lags and Leads</li><li>Apply, map and applymap: Advanced Transformations</li></ul></td><td><a href="/assets/dm_notes/Chapter_17.pdf">Chapter 17</a></td></tr>
+
+<tr>		<td>Window Functions</td>
+<td><ul><li>Window Functions in Pandas</li><li>Some gotchas</li><li>Reshaping Data: Transpose, Stack and Unstack</li><li>A Bunch of stuff to clean up</li><li>Combining with the original DataFrame</li><li>Moving the Window</li><li>Pivot / Melt</li></ul></td><td><a href="/assets/dm_notes/Chapter_18.pdf">Chapter 18</a></td></tr>
+
+<tr>		<td colspan="3" style="text-align: center"><b>Appendix</b></td>
+</tr>
+
+<tr>		<td>Data Dictionaries</td>
+<td><ul><li>Introduction</li><li>Iowa Fleet data</li><li>NY MTA Data</li><li>Daily Stock Data: s2010 and s2011</li><li>Annual Fundamental Financial information: fnd</li><li>Soap Transaction Data</li></ul></td><td><a href="/assets/dm_notes/Appendix_A.pdf">Appendix A</a></td></tr>
+
+<tr>		<td>Connecting SQL to Python or R</td>
+<td><ul><li>Connecting to any database: ODBC and JDBC</li><li>Connecting only to PostgreSQL</li></ul></td><td><a href="/assets/dm_notes/Appendix_B.pdf">Appendix B</a></td></tr>
+
+<tr>		<td>Assignments</td>
+<td><ul><li><a href="/assets/dm_notes/HW_0A.pdf">HW 0A</a></li><li><a href="/assets/dm_notes/HW_0B.pdf">HW 0B</a></li><li><a href="/assets/dm_notes/HW_0C.pdf">HW 0C</a></li><li><a href="/assets/dm_notes/HW_1A.pdf">HW 1A</a></li><li><a href="/assets/dm_notes/HW_1B.pdf">HW 1B</a></li><li><a href="/assets/dm_notes/HW_2A.pdf">HW 2A</a></li><li><a href="/assets/dm_notes/HW_3A.pdf">HW 3A</a></li><li><a href="/assets/dm_notes/HW_3B.pdf">HW 3B</a></li><li><a href="/assets/dm_notes/HW_4A.pdf">HW 4A</a></li><li><a href="/assets/dm_notes/HW_4B.pdf">HW 4B</a></li><li><a href="/assets/dm_notes/HW_5A.pdf">HW 5A</a></li><li><a href="/assets/dm_notes/HW_5B.pdf">HW 5B</a></li><li><a href="/assets/dm_notes/HW_6A.pdf">HW 6A</a></li><li><a href="/assets/dm_notes/HW_6B.pdf">HW 6B</a></li><li><a href="/assets/dm_notes/HW_7A.pdf">HW 7A</a></li><li><a href="/assets/dm_notes/HW_7B.pdf">HW 7B</a></li><li><a href="/assets/dm_notes/HW_8AO.pdf">HW 8AO</a></li><li><a href="/assets/dm_notes/HW_8A.pdf">HW 8A</a></li><li><a href="/assets/dm_notes/HW_8B.pdf">HW 8B</a></li><li><a href="/assets/dm_notes/BART_Project.pdf">BART Project</a></li><li><a href="/assets/dm_notes/HW_5AO.pdf">HW 5AO</a></li></ul></td><td></td></tr>
+
+<tr>		<td>Example Exams</td>
+<td><ul><li><a href="/assets/dm_notes/2023_CAPP_Databases_Final_A.pdf">2023 CAPP Databases Final A</a></li><li><a href="/assets/dm_notes/2023_CAPP_Databases_Final_B.pdf">2023 CAPP Databases Final B</a></li><li><a href="/assets/dm_notes/2023_CAPP_Databases_Midterm_A.pdf">2023 CAPP Databases Midterm A</a></li><li><a href="/assets/dm_notes/2023_CAPP_Databases_Midterm_B.pdf">2023 CAPP Databases Midterm B</a></li><li><a href="/assets/dm_notes/2017_SQL_Final.pdf">2017 SQL Final</a></li><li><a href="/assets/dm_notes/2018_SQL_Final.pdf">2018 SQL Final</a></li><li><a href="/assets/dm_notes/2019_Exams.pdf">2019 Exams</a></li><li><a href="/assets/dm_notes/USF's_student_table.pdf">USF's student table</a></li><li><a href="/assets/dm_notes/FF_Sales_Example.pdf">FF Sales Example</a></li><li><a href="/assets/dm_notes/The_Sales_Rollup.pdf">The Sales Rollup</a></li><li><a href="/assets/dm_notes/Sales_Example_I.pdf">Sales Example I</a></li><li><a href="/assets/dm_notes/Sales_Example_II.pdf">Sales Example II</a></li></ul></td><td></td></tr>
+</table>
