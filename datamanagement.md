@@ -5,7 +5,7 @@ layout: default
 
 <div style="clear: both;">
   <div style="float: left; margin-right 5px; margin-right: 20px;">
-    <img style="border: 1px solid black;" src="/assets/dm_notes/coverpage.png" width="400">
+    <img style="border: 1px solid black;" src="/assets/dm_notes/coverpage.png" width="400" alt="Data Management course notes cover page">
   </div>
   <div>
 
