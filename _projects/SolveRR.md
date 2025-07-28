@@ -8,7 +8,7 @@ Alternative title: How to spend a few hours over the holidays sitting at a compu
 
 A few years ago a [friend](https://sites.google.com/site/rsaoumaedu/) of mine sent me a puzzle called Raging Rapids.
 
-<div style="text-align: center"><img src="/images/RagingRapids.jpeg" width="250" alt="Raging Rapids puzzle with wooden rafters and boat pieces" /></div>
+<div style="text-align: center"><img src="/images/RagingRapids.webp" width="250" alt="Raging Rapids puzzle with wooden rafters and boat pieces" /></div>
 
 The basic puzzle is can you put all 12 paddlers into the white water raft? At the base of each paddler are jigsaw style piece ends along each side. The edges of the raft also feature similar puzzle features. The goal is to put all 12 rafters in the raft facing the same direction. There are actually two solutions, as the rafters can fit in both facing the back of the boat and the front of the boat.
 

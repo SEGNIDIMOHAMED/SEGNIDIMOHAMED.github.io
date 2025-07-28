@@ -3,7 +3,7 @@ My name is Nick Ross and currently a professor at the University of Chicago's [D
 
 Before the University of Chicago, I was Director of Backend Engineering and Data Science at [The Meta (not Facebook)](https://themeta.com/). I spend most of my time working with [boring technologies](http://boringtechnology.club/) (Node, Python, K8s, Docker, PostgreSQL and Redis for example). I design cost-effective, scalable, cloud-based backend and data systems (ML/AI) as well as assemble the teams that build them. This includes all the fun stuff keeping the systems up at night.
 
-<div style="float: right;margin-left 0px; margin-right: 0px;"><img src="/images/NickRossPhoto.png" width="400" alt="Professional headshot of Nick Ross" /></div>
+<div style="float: right;margin-left 0px; margin-right: 0px;"><img src="/images/NickRossPhoto.webp" width="400" alt="Professional headshot of Nick Ross" /></div>
 
 On the [research]({% link research.md %}) side I study how companies leverage data to make decisions. Currently I'm working on two projects: a tome on [A/B testing]({% link abtesting.md %}) and a book on [Data Management]({% link datamanagement.md %}) using Pandas and SQL.
 
