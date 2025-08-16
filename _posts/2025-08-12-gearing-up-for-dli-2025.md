@@ -69,6 +69,7 @@ Now this was one of the most exciting events at last year's Indaba for me.
 
 Last year I made the rookie mistake of missing an announcement on available compute resources, and after competing using multiple Google Colab instances, I still managed to place a decent 5th in the Meta-GhanaNLP Translation Hackathon. We go again tihs year... so help me God 🙏🏾.
 
+<img width="662" height="441" alt="KayO-Tuning Meta LLMs for African Language Machine Translation" src="https://github.com/user-attachments/assets/7ba9511e-e915-489d-8d1c-4b1957fb8976" />
 
 
 #### 6. Poster Sessions
@@ -87,5 +88,7 @@ Kigali is a beautiful city, and there is even more beauty if you dare to venture
 ---
 That will be it from me for now. I'm looking forward to a beautiful week at this year's Indaba, and if you'll be attending and you happen to see me, do say hi! We can take a selfie 😉.
 
-See you in Kigali!
+See you in Kigali!  
+
+<img width="500" height="500" alt="Attending DLI 2025" src="https://github.com/user-attachments/assets/650e798e-32b2-48ea-b717-bcb319482b26" />
 
