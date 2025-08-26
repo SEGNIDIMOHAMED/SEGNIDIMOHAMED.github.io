@@ -1,4 +1,12 @@
 - member:
+  id: "blooncyclopedia"
+  name: "Blooncyclopedia"
+  description: "Blooncyclopedia is the free, self-hosted, community-run, publicly accessible and editable Bloons knowledge base that anyone can contribute to."
+  logo: "/images/logos/blooncyclopedia.png"
+  url: "https://www.bloonswiki.com/"
+  mainpage: ""
+  discord: "wtq9Uwxm8W"
+- member:
   id: "conkerwiki"
   name: "Conker Wiki"
   description: "Conker Wiki is a wiki covering the Conker series of games. Since April 2019, Conker Wiki has been hosted by Grifkuba."
