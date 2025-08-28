@@ -111,27 +111,27 @@
               <h2>News</h2>
               <p class="career-item">
                 <span class="career-date">April 2025:</span>
-                <span class="career-desc">
-                  Invited talk at Amazon Frontier AI.
-                </span>
+<!--                 <span class="career-desc"> -->
+<!--                   Invited talk at Amazon Frontier AI.
+                </span> -->
               </p>
               <p class="career-item">
                 <span class="career-date">March 2025:</span>
-                <span class="career-desc">
+<!--                 <span class="career-desc">
                   We released our preprint, <a href="https://kylesargent.github.io/flowmo">FlowMo</a>.
-                </span>
+                </span> -->
               </p>
               <p class="career-item">
                 <span class="career-date">December 2024:</span>
-                <span class="career-desc">
+<!--                 <span class="career-desc">
                   Accepted summer internship offer at Google Deepmind, beginning June 2025.
-                </span>
+                </span> -->
               </p>
               <p class="career-item">
                 <span class="career-date">December 2024:</span>
-                <span class="career-desc">
+<!--                 <span class="career-desc">
                   We released our first demo at <a href=https://www.worldlabs.ai/blog>WorldLabs</a>.
-                </span>
+                </span> -->
               </p>
               <!-- <p><strong>April 2024:</strong>
               Invited talk at Amazon Frontier AI.
@@ -145,7 +145,7 @@
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Industry experience</h2>
-              <p class="career-item">
+<!--               <p class="career-item">
                 <img
                   class="bullet"
                   width="50" height="50"
@@ -153,14 +153,14 @@
                   alt=""
                 />
                 <span class="career-date">June 2024–present:</span>
-                <span class="career-desc">
-                  Part‑time researcher at
-                  <a href="https://www.worldlabs.ai/">World Labs</a>,
+<!--                 <span class="career-desc">
+                  Part‑time researcher at -->
+<!--                   <a href="https://www.worldlabs.ai/">World Labs</a>,
                   working on large generative models.
                 </span>
-              </p>
+              </p> -->
               
-              <p class="career-item">
+<!--               <p class="career-item">
                 <img
                   class="bullet"
                   width="50" height="50"
@@ -170,8 +170,8 @@
                 <span class="career-date">September 2022–June 2024:</span>
                 <span class="career-desc">
                   Student researcher at Google DeepMind / Google Research.
-                </span>
-              </p>
+                </span> -->
+<!--               </p>
               
               <p class="career-item">
                 <img
@@ -184,25 +184,33 @@
                 <span class="career-desc">
                   AI Resident at Google Research.
                 </span>
-              </p>
+              </p> --> -->
             </table>
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Research</h2>
+              <h2>Certifications</h2>
               <p>
-                My research area is computer vision. My overall goal is to build <i>visual intelligence</i>. I am currently exploring several research areas:
+                I Have taken sevaral certifications in the AI/ML/DL field thant enhances my skills and power my thinking make me improve and do some important projects in many areas such as computer vision. My overall goal is to build <i> intelligent systems</i>. thses are my current certifications in this field :
                 <ul>
-                  <li><strong>Visual tokenization</strong> technique to compress visual data effectively and learn interesting representations, such as in my latest preprint <a href="https://kylesargent.github.io/flowmo">FlowMo</a>.
+                  <li><strong>Python</strong>  I've completed the Python course on Kaggle!<a href="https://www.kaggle.com/learn/certification/segnidimohamed/python ">View My Certification</a>
                   </li>
                   <br>
-                  <li><strong>Adding 3D controls to large generative models</strong> such as in my CVPR 2024 paper <a href="https://kylesargent.github.io/zeronvs">ZeroNVS</a>, or my ICCV 2023 first-authored Best Paper Finalist, <a href="https://kylesargent.github.io/vq3d">VQ3D</a>.
+                 
+                  <li><strong>AI Foundations</strong>Oracle Cloud Infrastructure 2025 AI Foundations Associate (1Z0-1122-25)<a href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=63E3EFD36A7D20516DDDC9635D11DF905FE481CC9C7447396928FCB7B80805C4 #OracleCertified via @Oracle_Edu ">View My Certification</a>
+                  </li>
+                   <br>
+                  <li><strong>MACHINE LEARNING</strong> Supervised Machine Learning: Regression and Classification <a href="https://coursera.org/verify/V65LTV725YSF">View My Certification</a>.
                   </li>
                   <br>
+                  
+                  
+<!--                   <br>
+
 
                   <li><strong>Visual robustness</strong> techniques such as my CVPR 2022 co-first-authored Best Paper Finalist, <a href="https://pyramidat.github.io/">Pyramid Adversarial Training</a>.
-                  </li>
+                  </li> -->
                 </ul>
               </p>
             <!-- FILTER BAR -->
@@ -224,16 +232,16 @@
           {% endfor %}
         </div>
 
-        <!-- POSTS TABLE -->
-        <table style="width:100%;border-spacing:0;border-collapse:separate;margin:0 auto;">
+<!--         <!-- POSTS TABLE -->
+<!--         <table style="width:100%;border-spacing:0;border-collapse:separate;margin:0 auto;">
           {% for post in site.posts %}
             {% for cat in post.categories %}
               {% if cat == 'research' %}
                 <tr class="post-item" data-categories="{{ post.categories | join: ',' }}">
                   <td style="padding:2%;width:37%;vertical-align:middle;min-width:120px">
                     {% if post.image %}
-                      <center>
-                        <img src="{{ post.image }}" alt="project image" style="max-width:100%;height:auto">
+<!--                       <center> -->
+<!--                         <img src="{{ post.image }}" alt="project image" style="max-width:100%;height:auto">
                       </center>
                     {% endif %}
                     {% if post.video %}
@@ -250,18 +258,18 @@
                       {% if post.thesis %}<a href="{{ post.thesis }}">thesis</a> /{% endif %}
                       {% if post.poster %}<a href="{{ post.poster }}">poster</a> /{% endif %}
                       {% if post.projectpage %}<a href="{{ post.projectpage }}">project page</a> /{% endif %}
-                      {% if post.visualresults %}<a href="{{ post.visualresults }}">visual results</a> /{% endif %}
-                      {% if post.slides %}<a href="{{ post.slides }}">slides</a> /{% endif %}
-                      {% if post.code %}<a href="{{ post.code }}">code</a> /{% endif %}
-                    </p>
+<!--                       {% if post.visualresults %}<a href="{{ post.visualresults }}">visual results</a> /{% endif %} -->
+<!--                       {% if post.slides %}<a href="{{ post.slides }}">slides</a> /{% endif %}
+                      {% if post.code %}<a href="{{ post.code }}">code</a> /{% endif %} -->
+<!--                     </p>
                     <p>{{ post.excerpt }}</p>
                   </td>
                 </tr>
-              {% endif %}
-            {% endfor %}
-          {% endfor %}
-        </table>
-        <!-- end posts table -->
+              {% endif %} -->
+<!--             {% endfor %}
+<!--           {% endfor %} -->
+<!--         </table> --> --> --> -->
+        <!-- end posts table --> -->
 
         <!-- footer omitted for brevity -->
       </td>
