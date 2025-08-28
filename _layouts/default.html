@@ -1,51 +1,293 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+<!DOCTYPE HTML>
+<html lang="en">
 
-    {% include meta.html %}
+<head>
+  <title>{{ site.name }}</title>
 
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+  <meta name="author" content="{{ site.name }}" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
-  </head>
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <meta name="google-site-verification" content="google6a0215df3331a32a.html" />
 
-  <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+  <style>
+    #filters { text-align:center; margin-bottom:1em; }
 
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
+    .filter-btn {
+      margin: 0 .25em;
+      padding: .5em 1em;
+      border: none;
+      border-radius: .25em;
+      background: #3498db;
+      color: #fff;
+      font-weight: 500;
+      text-transform: capitalize;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      transition: background 0.2s, transform 0.1s;
+      cursor: pointer;
+    }
+    .filter-btn:hover {
+      background: #2980b9;
+      transform: translateY(-1px);
+    }
+    .filter-btn.active {
+      background: #2980b9;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+    }
+    .bullet {
+      vertical-align: middle;
+      margin-right: 8px;
+    }
+    .career-item {
+      display: flex;
+      align-items: center;     /* vertical‑center icon + first line of text */
+      margin-bottom: 1em;
+    }
 
-          <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
-          </nav>
-        </header>
-      </div>
-    </div>
+    /* icon column */
+    .career-item .bullet {
+      flex-shrink: 0;
+      margin-right: 12px;
+    }
 
-    <div id="main" role="main" class="container">
-      {{ content }}
-    </div>
+    /* date column – fixed width so all “desc” always start at the same x */
+    .career-item .career-date {
+      flex-shrink: 0;
+      width: 160px;           /* tweak so the widest date fits */
+      font-weight: bold;
+    }
 
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
-      </div>
-    </div>
+    /* description column – takes up the rest of the line */
+    .career-item .career-desc {
+      flex: 1;
+    }
+  </style>
 
-    {% include analytics.html %}
-  </body>
+</head>
+
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:60%;vertical-align:middle">
+              <h1>
+                SEGNIDI MOHAMED
+              </h1>
+              <p>
+                I am a first-year student in CS at ENSAJ. I Love everything about AI and DATA SCIENCE 
+                
+
+                <!-- I have also worked at Google Research as a student researcher, mentored by <a href="https://deqings.github.io/">Deqing Sun</a> and Charles Herrmann. -->
+              </p>
+              <p>
+              </p>
+              <!-- <p>
+                Previously, I received my undergraduate degree from Harvard. I earned an A.B. with a joint concentration in Computer Science and Mathematics and graduated Phi Beta Kappa and <i>magna cum laude</i>. I received <i>Highest Honors</i> for my senior thesis, Lipschitz Constraints in Wasserstein GANs, advised by <a href="http://rush-nlp.com/">Alexander Rush</a>. I also worked as a research assistant at <a href="https://evlab.mit.edu/">EvLab</a> under <a href="https://evlab.mit.edu/family.">Evelina Fedorenko</a>.
+              </p> -->
+              <p style="text-align:center">
+                <!-- <a href="https://drive.google.com/file/d/1k5PWYF4q4BPy3Uz6EP5fqJG2En2qK0Fm/view?usp=sharing">CV</a> / -->
+                <a target="_blank" href="https://mailhide.io/e/gUcFR4n5"> Email</a> &nbsp;/&nbsp;
+                <a href="https://github.com/kylesargent">GitHub</a> &nbsp;/&nbsp;
+                <a href="https://scholar.google.com/citations?user=-3vo5ukAAAAJ&hl=en">Google Scholar</a> &nbsp;/&nbsp;
+                <a href="https://www.linkedin.com/in/kyle-sargent-784006134/"> LinkedIn </a> &nbsp;/&nbsp;
+                <a href="https://kylesargent.github.io/misc"> Misc </a>
+              </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <img style="width:80%;max-width:100%" alt="profile photo" src="/images/headshot.png">
+            </td>
+          </tr>
+        </table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+              <h2>News</h2>
+              <p class="career-item">
+                <span class="career-date">April 2025:</span>
+                <span class="career-desc">
+                  Invited talk at Amazon Frontier AI.
+                </span>
+              </p>
+              <p class="career-item">
+                <span class="career-date">March 2025:</span>
+                <span class="career-desc">
+                  We released our preprint, <a href="https://kylesargent.github.io/flowmo">FlowMo</a>.
+                </span>
+              </p>
+              <p class="career-item">
+                <span class="career-date">December 2024:</span>
+                <span class="career-desc">
+                  Accepted summer internship offer at Google Deepmind, beginning June 2025.
+                </span>
+              </p>
+              <p class="career-item">
+                <span class="career-date">December 2024:</span>
+                <span class="career-desc">
+                  We released our first demo at <a href=https://www.worldlabs.ai/blog>WorldLabs</a>.
+                </span>
+              </p>
+              <!-- <p><strong>April 2024:</strong>
+              Invited talk at Amazon Frontier AI.
+              </p>
+              <p><strong>December 2024:</strong>&nbsp;&nbsp;&nbsp
+                
+              </p> -->
+            </table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+              <h2>Industry experience</h2>
+              <p class="career-item">
+                <img
+                  class="bullet"
+                  width="50" height="50"
+                  src="/images/worldlabs.jpg"
+                  alt=""
+                />
+                <span class="career-date">June 2024–present:</span>
+                <span class="career-desc">
+                  Part‑time researcher at
+                  <a href="https://www.worldlabs.ai/">World Labs</a>,
+                  working on large generative models.
+                </span>
+              </p>
+              
+              <p class="career-item">
+                <img
+                  class="bullet"
+                  width="50" height="50"
+                  src="/images/deepmind.png"
+                  alt=""
+                />
+                <span class="career-date">September 2022–June 2024:</span>
+                <span class="career-desc">
+                  Student researcher at Google DeepMind / Google Research.
+                </span>
+              </p>
+              
+              <p class="career-item">
+                <img
+                  class="bullet"
+                  width="50" height="50"
+                  src="/images/google.png"
+                  alt=""
+                />
+                <span class="career-date">October 2020–August 2022:</span>
+                <span class="career-desc">
+                  AI Resident at Google Research.
+                </span>
+              </p>
+            </table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+              <h2>Research</h2>
+              <p>
+                My research area is computer vision. My overall goal is to build <i>visual intelligence</i>. I am currently exploring several research areas:
+                <ul>
+                  <li><strong>Visual tokenization</strong> technique to compress visual data effectively and learn interesting representations, such as in my latest preprint <a href="https://kylesargent.github.io/flowmo">FlowMo</a>.
+                  </li>
+                  <br>
+                  <li><strong>Adding 3D controls to large generative models</strong> such as in my CVPR 2024 paper <a href="https://kylesargent.github.io/zeronvs">ZeroNVS</a>, or my ICCV 2023 first-authored Best Paper Finalist, <a href="https://kylesargent.github.io/vq3d">VQ3D</a>.
+                  </li>
+                  <br>
+
+                  <li><strong>Visual robustness</strong> techniques such as my CVPR 2022 co-first-authored Best Paper Finalist, <a href="https://pyramidat.github.io/">Pyramid Adversarial Training</a>.
+                  </li>
+                </ul>
+              </p>
+            <!-- FILTER BAR -->
+        <div id="filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <!-- {% assign all_cats = site.posts 
+               | map: "categories" 
+               | join: "," 
+               | split: "," 
+               | uniq 
+               | sort
+               | where_exp: "c", "c != 'research'" %} -->
+            {% assign all_cats = "Visual Tokenization,Large Generative Models with 3D Controls,Visual Robustness,Misc" 
+               | split: "," %}
+            {% for cat in all_cats %}
+            <button class="filter-btn" data-filter="{{ cat | escape }}">
+              {{ cat }}
+            </button>
+          {% endfor %}
+        </div>
+
+        <!-- POSTS TABLE -->
+        <table style="width:100%;border-spacing:0;border-collapse:separate;margin:0 auto;">
+          {% for post in site.posts %}
+            {% for cat in post.categories %}
+              {% if cat == 'research' %}
+                <tr class="post-item" data-categories="{{ post.categories | join: ',' }}">
+                  <td style="padding:2%;width:37%;vertical-align:middle;min-width:120px">
+                    {% if post.image %}
+                      <center>
+                        <img src="{{ post.image }}" alt="project image" style="max-width:100%;height:auto">
+                      </center>
+                    {% endif %}
+                    {% if post.video %}
+                      <video height="157" width="269" class="demoVideo" muted loop autoplay>
+                        <source src="{{ post.video }}" type="video/mp4">
+                      </video>
+                    {% endif %}
+                  </td>
+                  <td style="padding:2.5%;width:63%;vertical-align:middle">
+                    <h3>{{ post.title }}</h3>
+                    <p>{{ post.authors }}<br>{{ post.venue }}
+                      {% if post.venue2 %}<br>{{ post.venue2 }}{% endif %}<br>
+                      {% if post.arxiv %}<a href="{{ post.arxiv }}">arxiv</a> /{% endif %}
+                      {% if post.thesis %}<a href="{{ post.thesis }}">thesis</a> /{% endif %}
+                      {% if post.poster %}<a href="{{ post.poster }}">poster</a> /{% endif %}
+                      {% if post.projectpage %}<a href="{{ post.projectpage }}">project page</a> /{% endif %}
+                      {% if post.visualresults %}<a href="{{ post.visualresults }}">visual results</a> /{% endif %}
+                      {% if post.slides %}<a href="{{ post.slides }}">slides</a> /{% endif %}
+                      {% if post.code %}<a href="{{ post.code }}">code</a> /{% endif %}
+                    </p>
+                    <p>{{ post.excerpt }}</p>
+                  </td>
+                </tr>
+              {% endif %}
+            {% endfor %}
+          {% endfor %}
+        </table>
+        <!-- end posts table -->
+
+        <!-- footer omitted for brevity -->
+      </td>
+    </tr>
+  </table>
+
+  <!-- FILTERING SCRIPT -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function(){
+      const buttons = document.querySelectorAll(".filter-btn");
+      const rows    = document.querySelectorAll(".post-item");
+
+      buttons.forEach(btn => {
+        btn.addEventListener("click", () => {
+          buttons.forEach(b => b.classList.remove("active"));
+          btn.classList.add("active");
+          const filter = btn.getAttribute("data-filter");
+          rows.forEach(row => {
+            const cats = row.getAttribute("data-categories").split(",");
+            row.style.display = (filter === "all" || cats.includes(filter))
+              ? "" : "none";
+          });
+        });
+      });
+    });
+  </script>
+</body>
+
 </html>
