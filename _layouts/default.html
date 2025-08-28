@@ -110,25 +110,25 @@
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>News</h2>
               <p class="career-item">
-                <span class="career-date">April 2025:</span>
+                <span class="career-date">There is no news at this time(2025).</span>
 <!--                 <span class="career-desc"> -->
 <!--                   Invited talk at Amazon Frontier AI.
                 </span> -->
               </p>
               <p class="career-item">
-                <span class="career-date">March 2025:</span>
+                <span class="career-date"></span>
 <!--                 <span class="career-desc">
                   We released our preprint, <a href="https://kylesargent.github.io/flowmo">FlowMo</a>.
                 </span> -->
               </p>
               <p class="career-item">
-                <span class="career-date">December 2024:</span>
+                <span class="career-date"></span>
 <!--                 <span class="career-desc">
                   Accepted summer internship offer at Google Deepmind, beginning June 2025.
                 </span> -->
               </p>
               <p class="career-item">
-                <span class="career-date">December 2024:</span>
+                <span class="career-date"></span>
 <!--                 <span class="career-desc">
                   We released our first demo at <a href=https://www.worldlabs.ai/blog>WorldLabs</a>.
                 </span> -->
@@ -145,6 +145,7 @@
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Industry experience</h2>
+              <p>There is no experience at this time(2025).</p>
 <!--               <p class="career-item">
                 <img
                   class="bullet"
@@ -191,9 +192,9 @@
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Certifications</h2>
-              <p>
-                I Have taken sevaral certifications in the AI/ML/DL field thant enhances my skills and power my thinking make me improve and do some important projects in many areas such as computer vision. My overall goal is to build <i> intelligent systems</i>. thses are my current certifications in this field :
-              </p>  
+              <p style="text-align: justify;">
+               I have taken several certifications in the AI, ML, and DL fields, which have enhanced my skills, strengthened my critical thinking, and broadened my knowledge. These experiences have deepened my understanding of advanced concepts and fueled my passion for building <i>intelligent systems</i>. Below are my current certifications in this field:
+              </p>
               <ul>
                   <li><strong>Python</strong>  I've completed the Python course on Kaggle!<a href="https://www.kaggle.com/learn/certification/segnidimohamed/python ">View My Certification</a>
                   </li>
@@ -215,23 +216,7 @@
                 </ul>
               </p>
             <!-- FILTER BAR -->
-        <div id="filters">
-          <button class="filter-btn active" data-filter="all">All</button>
-          <!-- {% assign all_cats = site.posts 
-               | map: "categories" 
-               | join: "," 
-               | split: "," 
-               | uniq 
-               | sort
-               | where_exp: "c", "c != 'research'" %} -->
-            {% assign all_cats = "Visual Tokenization,Large Generative Models with 3D Controls,Visual Robustness,Misc" 
-               | split: "," %}
-            {% for cat in all_cats %}
-            <button class="filter-btn" data-filter="{{ cat | escape }}">
-              {{ cat }}
-            </button>
-          {% endfor %}
-        </div>
+     
 
 <!--         <!-- POSTS TABLE -->
 <!--         <table style="width:100%;border-spacing:0;border-collapse:separate;margin:0 auto;">
@@ -277,26 +262,7 @@
     </tr>
   </table>
 
-  <!-- FILTERING SCRIPT -->
-  <script>
-    document.addEventListener("DOMContentLoaded", function(){
-      const buttons = document.querySelectorAll(".filter-btn");
-      const rows    = document.querySelectorAll(".post-item");
-
-      buttons.forEach(btn => {
-        btn.addEventListener("click", () => {
-          buttons.forEach(b => b.classList.remove("active"));
-          btn.classList.add("active");
-          const filter = btn.getAttribute("data-filter");
-          rows.forEach(row => {
-            const cats = row.getAttribute("data-categories").split(",");
-            row.style.display = (filter === "all" || cats.includes(filter))
-              ? "" : "none";
-          });
-        });
-      });
-    });
-  </script>
+ 
 </body>
 
 </html>
